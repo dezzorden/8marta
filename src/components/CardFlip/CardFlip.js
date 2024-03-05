@@ -1,5 +1,5 @@
 import React, {useRef, useState} from 'react';
-import './CardFlip.css'; // Предполагается, что стили анимации и карточки будут определены здесь
+import './CardFlip.css';
 
 const FlipCard =  ({ frontImage, backImage, musicFile,name }) => {
     const [isFlipped, setIsFlipped] = useState(false);
