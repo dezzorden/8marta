@@ -1,5 +1,5 @@
 
-import React from "react";
+import React, {useState} from "react";
 import "./App.css";
 import head from './img/head.png'
 import flowers1 from './img/flowers1.png'
@@ -9,6 +9,15 @@ import girls from "./data";
 import {Col, Container, Row} from "react-bootstrap";
 const App = () => {
 
+    const [openCardId, setOpenCardId] = useState(null);
+
+    const handleCardFlip = (id) => {
+        if (openCardId === id) {
+            setOpenCardId(null);
+        } else {
+            setOpenCardId(id);
+        }
+    };
 
     return (
         <>
@@ -18,11 +27,11 @@ const App = () => {
             <h1 className="text-center text-8-marta mb-2 position-relative">С  <span className="text8">8</span> <span style={{color:'#fda201'}}>Марта</span>!
             </h1>
             <Container fluid>
-                <Container style={{position:'relative'}}>
+                <Container style={{position:'relative',zIndex:10000}}>
                     <Row>
                         {girls.map((girl)=>{
                             return (<Col className='wrap-card' key={girl.id} sm={12} md={6} lg={4}>
-                                <FlipCard   backImage={girl.backImage} frontImage={girl.frontImage} musicFile={girl.audio} name={girl.name}/>
+                                <FlipCard   backImage={girl.backImage} frontImage={girl.frontImage} musicFile={girl.audio} name={girl.name}  isFlipped={openCardId === girl.id}  onFlip={() => handleCardFlip(girl.id)}/>
                             </Col>)
                         })}
                     </Row>

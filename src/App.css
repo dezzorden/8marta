@@ -10,17 +10,27 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Caveat';
+    src: local('Caveat'), url('./fonts/Caveat-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 .wrap-card{
     min-height: 530px;
 }
 .flowersLeft{
     position: fixed;
+    z-index: 1;
     left: 0;
     bottom: 0;
 }
 
 .flowersRight{
     position: fixed;
+    z-index: 1;
     right: 0;
     bottom: 0;
 }
@@ -31,7 +41,7 @@ body{
 
 }
 p{
-    font-family: 'Campanella', sans-serif !important;
+    font-family: 'Caveat', sans-serif !important;
     font-size: 65px ;
     font-weight: 900;
 }

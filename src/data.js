@@ -61,21 +61,21 @@ import image15f from './img/arina.jpg';
 import audio15 from  './audio/arina.mp3'
 
 const girls = [
-    {id:1,name:'Анисимова Вероника',backImage:image1b,frontImage:image1f,audio:audio1},
-    {id:2,name:'Бондаренко Светлана',backImage:image2b,frontImage:image2f,audio:audio2},
-    {id:3,name:'Коренева Валерия',backImage:image3b,frontImage:image3f,audio:audio3},
-    {id:4,name:'Попова Алиса',backImage:image4b,frontImage:image4f,audio:audio4},
-    {id:5,name:'Михеева Екатерина',backImage:image5b,frontImage:image5f,audio:audio5},
-    {id:6,name:'Афанасьева Екатерина',backImage:image6b,frontImage:image6f,audio:audio6},
-    {id:7,name:'Чумакова Татьяна',backImage:image7b,frontImage:image7f,audio:audio7},
-    {id:8,name:'Кузеванова Алевтина',backImage:image8b,frontImage:image8f,audio:audio8},
-    {id:9,name:'Степанова Наталья ',backImage:image9b,frontImage:image9f,audio:audio9},
-    {id:10,name:'Чистякова Яна',backImage:image10b,frontImage:image10f,audio:audio10},
-    {id:11,name:'Подкидышева Наталия',backImage:image11b,frontImage:image11f,audio:audio11},
-    {id:12,name:'Железнова Наталия',backImage:image12b,frontImage:image12f,audio:audio12},
-    {id:13,name:'Ульянова Анастасия',backImage:image13b,frontImage:image13f,audio:audio13},
-    {id:14,name:'Дуничева Светлана',backImage:image14b,frontImage:image14f,audio:audio14},
-    {id:15,name:'Комбарова Арина',backImage:image15b,frontImage:image15f,audio:audio15},
+    {id:1,name:'Вероника А.',backImage:image1b,frontImage:image1f,audio:audio1},
+    {id:2,name:'Светлана Б.',backImage:image2b,frontImage:image2f,audio:audio2},
+    {id:3,name:'Валерия К.',backImage:image3b,frontImage:image3f,audio:audio3},
+    {id:4,name:'Алиса П.',backImage:image4b,frontImage:image4f,audio:audio4},
+    {id:5,name:'Екатерина М.',backImage:image5b,frontImage:image5f,audio:audio5},
+    {id:6,name:'Екатерина А.',backImage:image6b,frontImage:image6f,audio:audio6},
+    {id:7,name:'Татьяна Ч.',backImage:image7b,frontImage:image7f,audio:audio7},
+    {id:8,name:'Алевтина К.',backImage:image8b,frontImage:image8f,audio:audio8},
+    {id:9,name:'Наталья С.',backImage:image9b,frontImage:image9f,audio:audio9},
+    {id:10,name:'Яна Ч.',backImage:image10b,frontImage:image10f,audio:audio10},
+    {id:11,name:'Наталия П.',backImage:image11b,frontImage:image11f,audio:audio11},
+    {id:12,name:'Наталия Ж.',backImage:image12b,frontImage:image12f,audio:audio12},
+    {id:13,name:'Анастасия У.',backImage:image13b,frontImage:image13f,audio:audio13},
+    {id:14,name:'Светлана Д.',backImage:image14b,frontImage:image14f,audio:audio14},
+    {id:15,name:'Арина К.',backImage:image15b,frontImage:image15f,audio:audio15},
 
 ];
 
