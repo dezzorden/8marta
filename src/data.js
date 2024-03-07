@@ -34,7 +34,7 @@ import audio8 from  './audio/ali.mp3'
 
 import image9b from './img/natliS.png';
 import image9f from './img/natliS.jpg';
-import audio9 from  './audio/natliS.mp3'
+import audio9 from  './audio/3.mp3'
 
 import image10b from './img/1.png';
 import image10f from './img/1.jpg';
@@ -42,7 +42,7 @@ import audio10 from  './audio/1.mp3'
 
 import image11b from './img/3.png';
 import image11f from './img/3.jpg';
-import audio11 from  './audio/3.mp3'
+import audio11 from  './audio/natliS.mp3'
 
 import image12b from './img/nataliZ.png';
 import image12f from './img/nataliZ.jpg';
